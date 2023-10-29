@@ -560,4 +560,51 @@ button {
 	background-color: #31d0aa;
 }
 
+
+
+.footer-form {
+	display: flex;
+	flex-direction: row;
+	gap: 24px;
+}
+
+.footer-form-subscribe {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	margin-left: 80px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #fff;
+}
+
+.footer-form-input {
+	border: 1px solid #fff;
+	border-radius: 4px;
+	font-family: inherit;
+	font-size: 16px;
+	outline: none;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+	margin-top: 16px;
+}
+
+.footer-button {
+	display: inline-flex;
+	padding: 12px 32px;
+	border: none;
+	border-radius: 4px;
+	background-color: #2196f3;
+	color: #fff;
+	font-size: inherit;
+	cursor: pointer;
+
+}
+
+.footer-button:hover,
+.footer-button:focus {
+	background-color: #1976d2;
+}
+
 /* =============/FOOTER=============== */
