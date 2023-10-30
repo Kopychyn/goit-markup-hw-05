@@ -674,32 +674,47 @@
             </li>
           </ul>
         </div>
-        <form class="footer-form" name="subscribe">
+        <form class="footer-form" name="subscribe" method="post">
           <label class="footer-form-subscribe">
             Subscribe
             <input
               class="footer-form-input"
-              type="text"
+              type="email"
               name="subscribe"
-              placeholder="E-mail"
+              placeholder="    E-mail"
             />
           </label>
           <button class="footer-button" type="submit">
-            Subscribe<span
-              ><svg
-                class="footer-list-icon-item-svg"
-                width="24"
-                height="24"
-              >
-                <use
-                  class="footer-item-svg-use"
-                  href="./images/icons.svg#send"
-                ></use>
-              </svg>
-            </span>
+            Subscribe<svg
+              class="footer-list-icon-item-svg"
+              width="24"
+              height="24"
+            >
+              <use
+                class="footer-item-svg-use"
+                href="./images/icons.svg#send"
+              ></use>
+            </svg>
           </button>
         </form>
       </div>
     </footer>
+    <div class="modal-background">
+      <div class="modal">
+        <button class="modal-button">
+          <svg class="modal-icon-close"></svg>
+          <p class="modal-text">Leave your contacts and we will call you back</p>
+          <form class="modal-form">
+            <div>
+              <label>
+              </label>
+              <div>
+                <input/>
+              </div>
+            <div>
+          </form>
+        </button>
+      </div>
+    </div>
   </body>
 </html>

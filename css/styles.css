@@ -571,7 +571,7 @@ button {
 .footer-form-subscribe {
 	display: flex;
 	flex-direction: column;
-	gap: 8px;
+	gap: 16px;
 	margin-left: 80px;
 	font-size: 16px;
 	font-weight: 500;
@@ -587,11 +587,16 @@ button {
 	font-size: 16px;
 	outline: none;
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-	margin-top: 16px;
+	width: 264px;
+	height: 40px;
+	background-color: #2E2F42;
+
 }
 
 .footer-button {
 	display: inline-flex;
+	align-items: center;
+	gap: 16px;
 	padding: 12px 32px;
 	border: none;
 	border-radius: 4px;
@@ -599,7 +604,10 @@ button {
 	color: #fff;
 	font-size: inherit;
 	cursor: pointer;
-
+	height: 100%;
+	width: 100%;
+	margin-top: 40px;
+	padding: 8px 24px;
 }
 
 .footer-button:hover,
