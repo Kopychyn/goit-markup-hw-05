@@ -562,13 +562,12 @@ button {
 
 .footer-form {
 	display: flex;
-	flex-direction: row;
 	gap: 24px;
 }
 
 .footer-form-subscribe {
 	display: flex;
-	flex-direction: column;
+
 	margin-left: 80px;
 	font-size: 16px;
 	font-weight: 500;
@@ -578,6 +577,7 @@ button {
 }
 
 .footer-form-subscribe-text {
+	margin-left: 80px;
 	margin-bottom: 16px;
 	font-weight: 500;
 	font-size: 16px;
@@ -622,7 +622,6 @@ button {
 	cursor: pointer;
 	height: 40px;
 	min-width: 165px;
-	margin-top: 40px;
 }
 
 .footer-button-icon-item-svg {
