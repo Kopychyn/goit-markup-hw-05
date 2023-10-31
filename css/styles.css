@@ -563,11 +563,11 @@ button {
 .footer-form {
 	display: flex;
 	gap: 24px;
+	margin-left: 80px;
 }
 
 .footer-form-subscribe {
 	display: flex;
-	margin-left: 80px;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 1.5;
@@ -752,7 +752,6 @@ button {
 	font-size: 12px;
 	line-height: 1.17;
 	letter-spacing: 0.04em;
-	color: rgba(46, 47, 66, 0.4);
 	border: 1px solid rgba(46, 47, 66, 0.4);
 	border-radius: 4px;
 	background-color: transparent;
@@ -800,6 +799,7 @@ button {
 	align-items: center;
 	justify-content: center;
 	fill: transparent;
+	margin-right: 8px;
 }
 
 
