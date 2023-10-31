@@ -679,16 +679,13 @@ button {
 .modal-button:focus {
 	background-color: #404bbf;
 	border: none;
+	fill: #ffffff;
 }
 
 .modal-icon-close {
 	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button:hover,
-.modal-icon-close:focus {
-	fill: #ffffff;
-}
 
 .modal-text {
 	font-weight: 500;
