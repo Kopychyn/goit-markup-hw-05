@@ -744,7 +744,7 @@ button {
 	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-input:focus .modal-form-input-svg {
+.modal-form-input:focus+.modal-form-input-svg {
 	fill: #4D5AE5;
 }
 
@@ -819,10 +819,7 @@ button {
 	color: #4d5ae5;
 }
 
-.footer-form-button-box {
-	display: flex;
-	justify-content: center;
-}
+.footer-form-button-box {}
 
 .footer-form-button {
 	display: block;
